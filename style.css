@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    /* font-size: 14px;
+    background: #f5f5f5; */
+}
+
+table.shopping-cart{
+    width: 70%;
+    background-color: rgb(225, 228, 228);
+}
+table.shopping-cart tfoot, table.shopping-cart thead {
+    background-color: rgb(58,58,58);
+    color: white;
+}
+table.shopping-cart tbody tr:nth-child(odd) {
+    background-color: rgb(209, 209, 209);
+}
+table.shopping-cart tbody tr td:nth-child(3) {
+    text-align: center;
+}
+table.shopping-cart tfoot,
+table.shopping-cart tbody tr td:nth-child(5),
+table.shopping-cart tbody tr td:nth-child(4) {
+    text-align: right;
+}
+div.sc-buttons {
+    width: 70%;
+    text-align: right;
+}
+div.sc-buttons button {
+    background-color: tomato;
+    color: white;
+    font-size: 1.1rem;
+    padding: 0.5rem;
+    border: none;
+}
+div.sc-buttons button i {
+    color: rgb(59,59,59);
+}
+i {
+    color: black;
+    /* margin: 0.5rem; */
+}
+.ürünadı {
+    text-align: start;
+}
